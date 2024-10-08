@@ -1,0 +1,44 @@
+.note {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .note:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .note-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .note-title {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    color: red;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .delete-button:hover {
+    text-decoration: underline;
+  }
+  
+  .note-body {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #666;
+  }
+  
