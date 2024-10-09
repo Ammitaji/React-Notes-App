@@ -9,3 +9,4 @@ root.render(
     <App />  // Rendering the main App component
   </React.StrictMode>
 );
+
